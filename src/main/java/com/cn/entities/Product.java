@@ -13,6 +13,10 @@ public class Product {
     private String title;
     private Double price;
 
+    public void doSay(){
+        System.out.println("this is say...");
+    }
+
     @Override
     public String toString() {
         return "Product{" +
